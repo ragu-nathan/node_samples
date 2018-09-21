@@ -1,0 +1,30 @@
+{
+  "name": "jwt_sample",
+  "version": "1.0.0",
+  "description": "Node js JWT Authentication",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "JWT",
+    "Token",
+    "based",
+    "Authentication"
+  ],
+  "author": "Ragunathan Maniraj",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
